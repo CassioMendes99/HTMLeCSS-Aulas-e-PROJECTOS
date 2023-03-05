@@ -1,0 +1,34 @@
+/* Media Query */
+
+h1 {
+    color: gold;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        color: silver;
+    }
+}
+
+/* Min Width */
+p {
+    background-color: silver;
+    color: tan;
+}
+@media screen and (min-width: 800px) {
+    p {
+        background-color: tan;
+        color: gold;
+    }
+}
+
+/* Landscape */
+h3 {
+    display: none;
+}
+
+@media screen and (orientation: landscape) {
+    h3 {
+        display: block;
+    }
+}
